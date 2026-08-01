@@ -32,6 +32,7 @@ function create({ title }) {
     id: Date.now(),
     title,
     done: false,
+    priority: "normal",
     createdAt: new Date().toISOString(),
   };
   tasks.push(newTask);
