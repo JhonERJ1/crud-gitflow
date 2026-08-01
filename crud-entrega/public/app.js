@@ -34,6 +34,12 @@ async function loadTasks() {
     title.className = "task-title";
     title.textContent = task.title;
 
+    const date = document.createElement("span");
+    date.textContent = " (" + new Date(task.createdAt).toLocaleDateString("es-DO") + ")";
+    date.style.color = "#9ca3af";
+    date.style.fontSize = "0.8rem";
+    title.append(date);
+
     const actions = document.createElement("div");
     actions.className = "task-actions";
 
