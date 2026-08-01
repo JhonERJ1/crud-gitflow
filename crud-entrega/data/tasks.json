@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Leer el enunciado de la Tarea 3",
+    "done": true,
+    "createdAt": "2025-07-15T09:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Crear el repositorio en GitHub",
+    "done": false,
+    "createdAt": "2025-07-15T09:05:00.000Z"
+  }
+]

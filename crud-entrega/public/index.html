@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Mis Tareas</h1>
+        <p class="subtitle">CRUD con Node.js + Express</p>
+      </header>
+
+      <form id="task-form" class="task-form">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Escribe una nueva tarea..."
+          autocomplete="off"
+        />
+        <button type="submit">Agregar</button>
+      </form>
+
+      <p id="error" class="error" hidden></p>
+
+      <ul id="task-list" class="task-list"></ul>
+
+      <p id="empty" class="empty" hidden>No hay tareas todavia. Agrega la primera.</p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "todo-crud",
+  "version": "1.0.0",
+  "description": "CRUD de lista de tareas con Node.js y Express (Tarea 3 - Programacion III)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["crud", "express", "todo", "git-flow"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
